@@ -55,11 +55,16 @@ body {
 .rating-number:hover {
   background-color: rgb(127, 135, 151);
   color: white;
+  transform: rotate(1turn);
 }
 
 .rating-number.selected {
   color: white;
   background-color: rgb(224, 123, 45);
+}
+
+.top-star:hover{
+  transform: rotate(-2turn);
 }
 
 input {
